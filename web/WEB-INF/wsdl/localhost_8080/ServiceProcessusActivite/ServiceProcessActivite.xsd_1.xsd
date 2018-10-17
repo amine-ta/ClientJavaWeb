@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://Services/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://Services/">
+
+<xs:element name="ServiceProcessActivite" type="tns:ServiceProcessActivite" />
+
+<xs:element name="ServiceProcessActiviteResponse" type="tns:ServiceProcessActiviteResponse" />
+
+<xs:complexType name="ServiceProcessActivite">
+<xs:sequence>
+<xs:element name="Annee" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ServiceProcessActiviteResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
