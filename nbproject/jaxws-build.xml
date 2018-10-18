@@ -26,21 +26,21 @@
             <isset property="conf.dir"/>
         </condition>
     </target>
-    <target name="wsimport-client-WebServiceActiviteProcess" depends="wsimport-init">
-        <mkdir dir="${build.generated.dir}/jax-wsCache/WebServiceActiviteProcess"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WebServiceActiviteProcess" destdir="${build.generated.dir}/jax-wsCache/WebServiceActiviteProcess" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/WebServiceActiviteProcess/wsdl/localhost_8080/ServiceWebProcessActivite/WebServiceActiviteProcess.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/ServiceWebProcessActivite/WebServiceActiviteProcess?WSDL" xnocompile="true" xendorsed="true">
-            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/WebServiceActiviteProcess/wsdl/localhost_8080/ServiceWebProcessActivite/WebServiceActiviteProcess.wsdl"/>
-            <produces dir="${build.generated.dir}/jax-wsCache/WebServiceActiviteProcess"/>
+    <target name="wsimport-client-webServiceProccessusActivite" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/webServiceProccessusActivite"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/webServiceProccessusActivite" destdir="${build.generated.dir}/jax-wsCache/webServiceProccessusActivite" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/webServiceProccessusActivite/wsdl/localhost_8080/WebServiceJava/webServiceProccessusActivite.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/WebServiceJava/webServiceProccessusActivite?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/webServiceProccessusActivite/wsdl/localhost_8080/WebServiceJava/webServiceProccessusActivite.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/webServiceProccessusActivite"/>
         </wsimport>
         <copy todir="${build.generated.sources.dir}/jax-ws">
-            <fileset dir="${build.generated.dir}/jax-wsCache/WebServiceActiviteProcess">
+            <fileset dir="${build.generated.dir}/jax-wsCache/webServiceProccessusActivite">
                 <include name="**/*.java"/>
             </fileset>
         </copy>
     </target>
-    <target name="wsimport-client-clean-WebServiceActiviteProcess" depends="-init-project">
+    <target name="wsimport-client-clean-webServiceProccessusActivite" depends="-init-project">
         <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
-        <delete dir="${build.generated.dir}/jax-wsCache/WebServiceActiviteProcess"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/webServiceProccessusActivite"/>
     </target>
-    <target name="wsimport-client-generate" depends="wsimport-client-WebServiceActiviteProcess"/>
+    <target name="wsimport-client-generate" depends="wsimport-client-webServiceProccessusActivite"/>
 </project>

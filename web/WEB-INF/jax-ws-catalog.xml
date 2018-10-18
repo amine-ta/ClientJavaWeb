@@ -4,4 +4,6 @@
     <system systemId="http://localhost:8080/ServiceProcessusActivite/ServiceProcessActivite?xsd=1" uri="wsdl/localhost_8080/ServiceProcessusActivite/ServiceProcessActivite.xsd_1.xsd"/>
     <system systemId="http://localhost:8080/ServiceWebProcessActivite/WebServiceActiviteProcess?WSDL" uri="wsdl/localhost_8080/ServiceWebProcessActivite/WebServiceActiviteProcess.wsdl"/>
     <system systemId="http://localhost:8080/ServiceWebProcessActivite/WebServiceActiviteProcess?xsd=1" uri="wsdl/localhost_8080/ServiceWebProcessActivite/WebServiceActiviteProcess.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/WebServiceJava/webServiceProccessusActivite?WSDL" uri="wsdl/localhost_8080/WebServiceJava/webServiceProccessusActivite.wsdl"/>
+    <system systemId="http://localhost:8080/WebServiceJava/webServiceProccessusActivite?xsd=1" uri="wsdl/localhost_8080/WebServiceJava/webServiceProccessusActivite.xsd_1.xsd"/>
 </catalog>

@@ -29,10 +29,7 @@
                                 </div>
                                 <div class="form-group">
                                     <input type="Date" name="txtAnnee" class="form-control" placeholder="Your birth year *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                                </div>
+                                </div>                               
                                 <div class="form-group">
                                     <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
                                 </div>

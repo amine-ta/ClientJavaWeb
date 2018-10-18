@@ -33,24 +33,13 @@ public class ControlServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        
-      
-        
-        InetAddress inetadr = InetAddress.getLocalHost();
-        Calendar calendar = Calendar.getInstance();        
-        String hostAddress=inetadr.getHostAddress();
-        String hostName=inetadr.getHostName();
-        String RemoteAdress = request.getRemoteAddr();
-        String Timestamp=calendar.getTime().toString();
- 
-        
-        
+     
        String annee = request.getParameter("txtAnnee");
        String name =request.getParameter("txtName");
        
        if(!(annee.equals("")&&name.equals(""))){
        String[] year =annee.split("-");       
-       String message=Gestionnaire.activiteProcessus(year[0], annee, name, Timestamp, hostAddress, hostName);
+       String message=Gestionnaire.proccessusActivite(name,year[0]);
        request.setAttribute("Resultat", message);
        }
        
