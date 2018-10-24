@@ -6,4 +6,6 @@
     <system systemId="http://localhost:8080/ServiceWebProcessActivite/WebServiceActiviteProcess?xsd=1" uri="src/conf/xml-resources/web-service-references/WebServiceActiviteProcess/wsdl/localhost_8080/ServiceWebProcessActivite/WebServiceActiviteProcess.xsd_1.xsd"/>
     <system systemId="http://localhost:8080/WebServiceJava/webServiceProccessusActivite?WSDL" uri="src/conf/xml-resources/web-service-references/webServiceProccessusActivite/wsdl/localhost_8080/WebServiceJava/webServiceProccessusActivite.wsdl"/>
     <system systemId="http://localhost:8080/WebServiceJava/webServiceProccessusActivite?xsd=1" uri="src/conf/xml-resources/web-service-references/webServiceProccessusActivite/wsdl/localhost_8080/WebServiceJava/webServiceProccessusActivite.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ServiceWebProcessActivite/WSProcessActivite?WSDL" uri="src/conf/xml-resources/web-service-references/WSProcessActivite/wsdl/localhost_8080/ServiceWebProcessActivite/WSProcessActivite.wsdl"/>
+    <system systemId="http://localhost:8080/ServiceWebProcessActivite/WSProcessActivite?xsd=1" uri="src/conf/xml-resources/web-service-references/WSProcessActivite/wsdl/localhost_8080/ServiceWebProcessActivite/WSProcessActivite.xsd_1.xsd"/>
 </catalog>

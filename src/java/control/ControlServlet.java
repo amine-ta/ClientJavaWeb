@@ -39,7 +39,7 @@ public class ControlServlet extends HttpServlet {
        
        if(!(annee.equals("")&&name.equals(""))){
        String[] year =annee.split("-");       
-       String message=Gestionnaire.proccessusActivite(name,year[0]);
+       String message=Gestionnaire.getActiviteProcess(year[0],name);
        request.setAttribute("Resultat", message);
        }
        
