@@ -8,4 +8,6 @@
     <system systemId="http://localhost:8080/WebServiceJava/webServiceProccessusActivite?xsd=1" uri="wsdl/localhost_8080/WebServiceJava/webServiceProccessusActivite.xsd_1.xsd"/>
     <system systemId="http://localhost:8080/ServiceWebProcessActivite/WSProcessActivite?WSDL" uri="wsdl/localhost_8080/ServiceWebProcessActivite/WSProcessActivite.wsdl"/>
     <system systemId="http://localhost:8080/ServiceWebProcessActivite/WSProcessActivite?xsd=1" uri="wsdl/localhost_8080/ServiceWebProcessActivite/WSProcessActivite.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ServiceWebProcessActivite/WsActivitePross?WSDL" uri="wsdl/localhost_8080/ServiceWebProcessActivite/WsActivitePross.wsdl"/>
+    <system systemId="http://localhost:8080/ServiceWebProcessActivite/WsActivitePross?xsd=1" uri="wsdl/localhost_8080/ServiceWebProcessActivite/WsActivitePross.xsd_1.xsd"/>
 </catalog>

@@ -11,9 +11,10 @@ package control;
  */
 public class Gestionnaire {
 
-    public static String getActiviteProcess(java.lang.String annee, java.lang.String userName) {
-        service.WSProcessActivite_Service service = new service.WSProcessActivite_Service();
-        service.WSProcessActivite port = service.getWSProcessActivitePort();
-        return port.getActiviteProcess(annee, userName);
+    public static String wsProcessusActivite(java.lang.String annee) {
+        serviceweb.WsActivitePross_Service service = new serviceweb.WsActivitePross_Service();
+        serviceweb.WsActivitePross port = service.getWsActiviteProssPort();
+        return port.wsProcessusActivite(annee);
     }
+
 }

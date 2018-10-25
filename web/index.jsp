@@ -23,12 +23,9 @@
             <form method="post" action="ControlServlet" name="maForme">
                         <h3>Drop Us a Message</h3>
                        <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6">                                
                                 <div class="form-group">
-                                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="Date" name="txtAnnee" class="form-control" placeholder="Your birth year *" value="" />
+                                    <input type="number" name="txtAnnee" class="form-control" placeholder="Your birth year *" value="" />
                                 </div>                               
                                 <div class="form-group">
                                     <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />

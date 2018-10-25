@@ -35,11 +35,11 @@ public class ControlServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
      
        String annee = request.getParameter("txtAnnee");
-       String name =request.getParameter("txtName");
+
        
-       if(!(annee.equals("")&&name.equals(""))){
+       if(!(annee.equals(""))){
        String[] year =annee.split("-");       
-       String message=Gestionnaire.getActiviteProcess(year[0],name);
+       String message=Gestionnaire.wsProcessusActivite(year[0]);
        request.setAttribute("Resultat", message);
        }
        
